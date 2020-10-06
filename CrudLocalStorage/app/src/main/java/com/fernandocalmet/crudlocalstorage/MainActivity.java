@@ -17,7 +17,7 @@ import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Realm realm;
+    Realm realm;
     private TextView output;
 
     @Override
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 final DataModel dataModel = new DataModel();
 
                 Number current_id = realm.where(DataModel.class).max("id");
-                long nextId = 0;
+                long nextId;
                 if (current_id == null) {
                     nextId = 1;
                 } else {
@@ -193,9 +193,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for (int i = 0; i < dataModels.size(); i++) {
             output.setText("");
             output.append("ID: " + dataModels.get(i).getId()
-                    + "Name: " + dataModels.get(i).getName()
-                    + "Age: " + dataModels.get(i).getAge()
-                    + "Gender: " + dataModels.get(i).getGender()
+                    + ", Name: " + dataModels.get(i).getName()
+                    + ", Age: " + dataModels.get(i).getAge()
+                    + ", Gender: " + dataModels.get(i).getGender()
                     + "\n"
             );
         }

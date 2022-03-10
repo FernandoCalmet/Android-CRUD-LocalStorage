@@ -1,17 +1,47 @@
 # Android CRUD LocalStorage
 
-Aplicación simple con Android Studio aplicando operaciones CRUD con LocalStorage usando Realm.
+[![Github][github-shield]][github-url]
+[![Kofi][kofi-shield]][kofi-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Khanakat][khanakat-shield]][khanakat-url]
 
-## Dependencias
+## 📓 TABLA DE CONTENIDO
 
-[Realm](https://realm.io/) : Realm ayuda a las empresas a crear aplicaciones móviles atractivas con un tiempo de desarrollo mínimo. Descubra por qué cada día cientos de miles de desarrolladores eligen Realm.
+* [Acerca del proyecto](#acerca-del-proyecto)
+* [Instalación](#instalación)
+* [Dependencias](#dependencias)
+* [Licencia](#licencia)
 
-## :page_facing_up: LICENCIA
+## 🔥 ACERCA DEL PROYECTO
 
-Licencia MIT. Puedes verla en el [Archivo de Licencia](https://github.com/FernandoCalmet/android-crud-localstorage/blob/main/LICENSE) para más información.
+Este proyecto es una muestra de una solución base de `CRUD con LocalStorage` utilizando `Java + Android`.
 
----
+## ⚙️ INSTALACIÓN
 
-:octocat: [Puedes seguirme en Github.](https://github.com/FernandoCalmet)
+Clonar el repositorio.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)
+```bash
+gh repo clone FernandoCalmet/Android-CRUD-LocalStorage
+```
+
+## 📥 DEPENDENCIAS
+
+- [RealmIO](https://realm.io/) : Realm ayuda a las empresas a crear aplicaciones móviles atractivas con un tiempo de desarrollo mínimo. Descubra por qué cada día cientos de miles de desarrolladores eligen Realm.
+
+## 📄 LICENCIA
+
+Este proyecto está bajo la Licencia (Licencia MIT) - mire el archivo [LICENSE](LICENSE) para más detalles.
+
+## ⭐️ DAME UNA ESTRELLA
+
+Si esta Implementación le resultó útil o la utilizó en sus Proyectos, déle una estrella. ¡Gracias! O, si te sientes realmente generoso, [¡Apoye el proyecto con una pequeña contribución!](https://ko-fi.com/fernandocalmet).
+
+<!--- reference style links --->
+[github-shield]: https://img.shields.io/badge/-@fernandocalmet-%23181717?style=flat-square&logo=github
+[github-url]: https://github.com/fernandocalmet
+[kofi-shield]: https://img.shields.io/badge/-@fernandocalmet-%231DA1F2?style=flat-square&logo=kofi&logoColor=ff5f5f
+[kofi-url]: https://ko-fi.com/fernandocalmet
+[linkedin-shield]: https://img.shields.io/badge/-fernandocalmet-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernandocalmet
+[linkedin-url]: https://www.linkedin.com/in/fernandocalmet
+[khanakat-shield]: https://img.shields.io/badge/khanakat.com-brightgreen?style=flat-square
+[khanakat-url]: https://khanakat.com

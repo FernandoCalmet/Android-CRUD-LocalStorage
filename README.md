@@ -21,7 +21,7 @@ Este proyecto es una muestra de una solución base de `CRUD con LocalStorage` ut
 Clonar el repositorio.
 
 ```bash
-gh repo clone FernandoCalmet/Android-CRUD-LocalStorage
+gh repo clone FernandoCalmet/android-crud-local_storage
 ```
 
 ## 📥 DEPENDENCIAS
